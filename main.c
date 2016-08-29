@@ -1,5 +1,4 @@
 /* Author: Marcus Ross
- *         MR867434
  * Description: This program has three options: -t, -b, -s.
  *   The -t option requires input and output filenames as arguments, respectively; the designated input file must contain one or more lines with a string of length at least 1 and at most 255 characters, a tab character, and a 32 bit unsigned integer as formatted text; for each line read from the input file, the length of the string, the string, and the integer will be written to the designated output file as unformatted data; the output file will be overwritten if it already exists.
  *   The -b option requires input and output filenames as arguments, respectively; the designated input file must contain one or more triplets including 1 byte holding the length of the following string, a string of at least 1 and at most 255 characters, and a 4 byte unsigned integer as unformatted data; for each triplet read from the input file, the string, a tab character, and the integer will be written to the designated output file as formatted data; the output file will be overwritten if it already exists.
